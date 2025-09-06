@@ -1,0 +1,53 @@
+body {
+    background-color: bisque;
+}
+#header{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+.p1 {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.p2 {
+    color: red;
+    font-size: 16px;
+    font-style: italic;
+}
+.profile-image{
+    border-radius: 10px;
+    border-style: groove;
+    border-color: darkblue;
+    width: 100px;
+    height: 100px;
+    cursor: cell;
+}
+.textimage {
+    width: auto;
+    height: auto;
+    align-items: left;
+    text-align: center;
+    color: darkorange;
+}
+#footer{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    cursor: pointer;
+}
+#footer:hover {
+    background-color: lightcoral;
+    color: white;
+    font-weight: bold;
+}
+.link:hover {
+    color: rgb(1, 1, 10);
+    text-decoration: underline;
+}
+.link::after {
+    font-size: 0.8em;
+    color: rgb(150, 5, 5);
+}
